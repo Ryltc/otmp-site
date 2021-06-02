@@ -1,0 +1,9 @@
+.body {
+	width: 100px;
+	height: 100px;
+	background-image: url(https://twimg0-a.akamaihd.net/a/1350072692/t1/img/front_page/jp-mountain@2x.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+}
