@@ -1,0 +1,22 @@
+{
+  "name": "otmp-site",
+  "version": "1.0.0",
+  "description": "landing page for studio",
+  "main": "index.js",
+  "scripts": {
+    "sass-transpile": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryltc/otmp-site.git"
+  },
+  "author": "Ryltc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ryltc/otmp-site/issues"
+  },
+  "homepage": "https://github.com/Ryltc/otmp-site#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
