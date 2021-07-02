@@ -29,5 +29,24 @@
 		position: absolute;
 		top: 5%;
 		left: 50%
+
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #000;
+			li {
+				display: inline;
+				font-size: 20px;
+				a {
+					text-decoration: none;
+					padding: 14px;
+					&:hover {
+						background-color: #111;
+					}
+				}
+			}
+		}
 	}
 }
