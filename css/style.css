@@ -8,6 +8,13 @@ body {
     background-size: cover;
     background-position: top; }
 
+.heading-primary {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 8rem;
+  font-weight: 600;
+  letter-spacing: 3.5rem; }
+
 *,
 *::after,
 *::before {
