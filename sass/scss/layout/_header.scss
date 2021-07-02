@@ -25,7 +25,7 @@
     	text-align: center;
 	}
 
-	&__container {
+	&__navigation {
 		width: 100%;
 		display: inline-block;
 		ul {
@@ -34,18 +34,22 @@
 			padding: 0;
 			overflow: hidden;
 			background-color: #000;
-			li {
-				display: inline;
-				font-size: 20px;
-				a {
-					text-decoration-color: #ffffff;
-					text-decoration: none;
-					padding: 14px;
-					&:hover {
-						background-color: #111;
-					}
-				}
+		li {
+			display: inline;
+			font-size: 20px;
+		a {
+			text-decoration-color: #ffffff;
+			text-decoration: none;
+			padding: 14px;
+			&:hover {
+				background-color: #111;
 			}
+
+		  }
+
 		}
+
+      }
+
 	}
 }

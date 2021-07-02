@@ -61,21 +61,21 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
-  .header__container {
+  .header__navigation {
     width: 100%;
     display: inline-block; }
-    .header__container ul {
+    .header__navigation ul {
       list-style-type: none;
       margin: 0;
       padding: 0;
       overflow: hidden;
       background-color: #000; }
-      .header__container ul li {
+      .header__navigation ul li {
         display: inline;
         font-size: 20px; }
-        .header__container ul li a {
+        .header__navigation ul li a {
           text-decoration-color: #ffffff;
           text-decoration: none;
           padding: 14px; }
-          .header__container ul li a:hover {
+          .header__navigation ul li a:hover {
             background-color: #111; }
