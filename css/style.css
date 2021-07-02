@@ -17,6 +17,7 @@ body {
   letter-spacing: 3.5rem; }
 
 .heading-secondary {
+  text-transform: uppercase;
   text-align: center;
   text-decoration: none;
   font-size: 4rem;
