@@ -62,9 +62,8 @@ body {
     transform: translate(-50%, -50%);
     text-align: center; }
   .header__topnav {
-    position: absolute;
-    top: 5%;
-    left: 50%; }
+    width: 100%;
+    display: inline-block; }
     .header__topnav ul {
       list-style-type: none;
       margin: 0;

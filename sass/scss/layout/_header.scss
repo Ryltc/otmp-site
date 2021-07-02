@@ -26,10 +26,8 @@
 	}
 
 	&__topnav {
-		position: absolute;
-		top: 5%;
-		left: 50%;
-
+		width: 100%;
+		display: inline-block;
 		ul {
 			list-style-type: none;
 			margin: 0;
