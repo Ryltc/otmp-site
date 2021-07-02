@@ -14,7 +14,7 @@ body {
 .heading-primary {
 	text-transform: uppercase;
 	text-align: center;
-	text-decoration-color: underline;
+	text-decoration: underline;
 	font-size: 8rem;
 	font-weight: 600;
 	letter-spacing: 3.5rem;
@@ -30,6 +30,11 @@ body {
 }
 
 .heading-topnav {
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	font-size: 4rem;
+	
 
 }
 
