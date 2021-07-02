@@ -13,3 +13,7 @@ body {
   background-image: url(../img/keys.jpg);
   background-size: cover;
   background-position: top; }
+  .header__logo {
+    position: absolute;
+    top: 5rem;
+    left: 5rem; }
