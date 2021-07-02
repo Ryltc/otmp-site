@@ -14,13 +14,18 @@ body {
 .heading-primary {
 	text-transform: uppercase;
 	text-align: center;
+	text-decoration-color: underline;
 	font-size: 8rem;
 	font-weight: 600;
-	letter-spacing: 3.5rem
+	letter-spacing: 3.5rem;
 }
 
 .heading-secondary {
-
+	text-align: center;
+	text-decoration: none;
+	font-size: 4rem;
+	font-weight: 400;
+	letter-spacing: 3.5rem;
 }
 
 .heading-tertiary {
