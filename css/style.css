@@ -65,3 +65,17 @@ body {
     position: absolute;
     top: 5%;
     left: 50%; }
+    .header__nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #000; }
+      .header__nav ul li {
+        display: inline;
+        font-size: 20px; }
+        .header__nav ul li a {
+          text-decoration: none;
+          padding: 14px; }
+          .header__nav ul li a:hover {
+            background-color: #111; }
