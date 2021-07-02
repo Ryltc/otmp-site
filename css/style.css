@@ -70,12 +70,12 @@ body {
       padding: 0;
       overflow: hidden;
       background-color: #000; }
-      .header__navigation ul li {
-        display: inline;
-        font-size: 20px; }
-        .header__navigation ul li a {
-          text-decoration-color: #ffffff;
-          text-decoration: none;
-          padding: 14px; }
-          .header__navigation ul li a:hover {
-            background-color: #111; }
+    .header__navigation li {
+      display: inline;
+      font-size: 20px; }
+    .header__navigation a {
+      text-decoration-color: #ffffff;
+      text-decoration: none;
+      padding: 14px; }
+      .header__navigation a:hover {
+        background-color: #111; }
