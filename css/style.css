@@ -75,6 +75,7 @@ body {
         display: inline;
         font-size: 20px; }
         .header__topnav ul li a {
+          text-decoration-color: #ffffff;
           text-decoration: none;
           padding: 14px; }
           .header__topnav ul li a:hover {
