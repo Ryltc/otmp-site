@@ -24,4 +24,10 @@
     	transform: translate(-50%, -50%);
     	text-align: center;
 	}
+
+	&__nav {
+		position: absolute;
+		top: 5%;
+		left: 50%
+	}
 }
