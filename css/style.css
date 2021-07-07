@@ -79,3 +79,19 @@ body {
       padding: 14px; }
       .header__navigation a:hover {
         background-color: #111; }
+
+.section-studio {
+  background-color: #020202;
+  padding: 50rem; }
+
+.section-engineer {
+  background-color: #020202;
+  padding: 50rem; }
+
+.section-rates {
+  background-color: #020202;
+  padding: 50rem; }
+
+.section-recent-projects {
+  background-color: #020202;
+  padding: 50rem; }
