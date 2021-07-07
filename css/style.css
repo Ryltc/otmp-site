@@ -82,16 +82,20 @@ body {
 
 .section-studio {
   padding: 50rem;
-  text-align: center; }
+  text-align: center;
+  font-size: 1.2em; }
 
 .section-engineer {
   padding: 50rem;
-  text-align: center; }
+  text-align: center;
+  font-size: 1.2em; }
 
 .section-rates {
   padding: 50rem;
-  text-align: center; }
+  text-align: center;
+  font-size: 1.2em; }
 
 .section-recent-projects {
   padding: 50rem;
-  text-align: center; }
+  text-align: center;
+  font-size: 1.2em; }
