@@ -29,5 +29,6 @@
 
 .flip-card-back {
 	text-decoration-color: $color-text;
+	font-size: $default-font-size;
 	transform: rotateY(180deg);
 }
