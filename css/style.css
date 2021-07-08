@@ -45,8 +45,8 @@ body {
 
 .flip-card {
   background-color: transparent;
-  height: 100px;
-  width: 600px;
+  height: 100%;
+  width: 600%;
   border: 2px solid #color-primary-dark; }
 
 .flip-card-inner {
@@ -70,7 +70,7 @@ body {
 
 .flip-card-back {
   text-decoration-color: #FFFFFF;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   transform: rotateY(180deg); }
 
 .header {
