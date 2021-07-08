@@ -43,6 +43,39 @@ html {
 body {
   box-sizing: border-box; }
 
+.flip-card {
+  background-color: transparent;
+  height: 100px;
+  width: 100%;
+  border: 2px solid #color-primary-dark; }
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: .5s;
+  transform-style: preserve-3d; }
+
+.flip-card:hover .flip-card-inner {
+  transform: rotatY(180deg); }
+
+.flip-card-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+.flip-card-front {
+  background-color: #69697a;
+  text-decoration-color: #FFFFFF; }
+
+.flip-card-back {
+  background-color: #000000;
+  text-decoration-color: #FFFFFF;
+  transform: rotateY(180deg); }
+
 .header {
   height: 95vh;
   background-image: linear-gradient(to right bottom, rgba(105, 105, 122, 0.4), rgba(89, 39, 1, 0.4)), url(../img/keys.jpg);
