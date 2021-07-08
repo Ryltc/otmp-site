@@ -28,12 +28,10 @@
 }
 
 .flip-card-front {
-	background-color: $color-primary-light;
 	text-decoration-color: $color-text;
 }
 
 .flip-card-back {
-	background-color: $color-primary;
 	text-decoration-color: $color-text;
 	transform: rotateY(180deg);
 }
