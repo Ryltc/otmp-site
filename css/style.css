@@ -70,7 +70,7 @@ body {
 
 .flip-card-back {
   text-decoration-color: #FFFFFF;
-  font-size: 1.2rem;
+  font-size: 2.2rem;
   transform: rotateY(180deg); }
 
 .header {
