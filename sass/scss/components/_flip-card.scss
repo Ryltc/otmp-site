@@ -1,7 +1,7 @@
 .flip-card {
 	background-color: transparent;
 	height: 100px;
-	width: 100%;
+	width: 600px;
 	border: 2px solid #color-primary-dark;
 }
 
@@ -25,10 +25,6 @@
 	height: 100%;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
-}
-
-.flip-card-front {
-	text-decoration-color: $color-text;
 }
 
 .flip-card-back {
