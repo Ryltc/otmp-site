@@ -91,6 +91,9 @@ body {
       text-align: center;
       font-size: detault-font-size; }
 
+.footer {
+  text-align: center; }
+
 .header {
   height: 95vh;
   background-image: linear-gradient(to right bottom, rgba(105, 105, 122, 0.4), rgba(89, 39, 1, 0.4)), url(../img/keys.jpg);
