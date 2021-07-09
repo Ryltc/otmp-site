@@ -56,4 +56,31 @@
 			background-image: url(../img/me.jpg)
 		}
 	}
+
+	&__heading {
+		font-size: 10rem;
+		font-weight: 400;
+		text-transform: uppercase;
+		text-align: center;
+		color: $color-text;
+		position: absolute;
+		top: 12rem;
+        right: 2rem;
+        width: 75%;
+	}
+
+	&__heading-span {
+		padding: 1rem 1.5rem;
+		-webkit-box-decoration-break: slice;
+		box-decoration-break: slice;
+	}
+
+	&__details {
+		padding: 5rem;
+
+		p {
+			text-align: center;
+			font-size: detault-font-size;
+		}
+	}
 }

@@ -82,6 +82,25 @@ body {
       background-image: url(../img/mix.jpg); }
     .card__picture--2 {
       background-image: url(../img/me.jpg); }
+  .card__heading {
+    font-size: 10rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    top: 12rem;
+    right: 2rem;
+    width: 75%; }
+  .card__heading-span {
+    padding: 1rem 1.5rem;
+    -webkit-box-decoration-break: slice;
+    box-decoration-break: slice; }
+  .card__details {
+    padding: 5rem; }
+    .card__details p {
+      text-align: center;
+      font-size: detault-font-size; }
 
 .header {
   height: 95vh;
