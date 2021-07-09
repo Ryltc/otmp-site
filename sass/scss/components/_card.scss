@@ -19,17 +19,17 @@
 		&--front {
 			position: absolute;
 			width: 100%;
-			height: 100%;
+			height: auto;
 			-webkit-backface-visibility: hidden;
 			backface-visibility: hidden;
 			}
-		}
 
 		&--back {
 			transform: rotateY(180deg);
 			text-decoration-color: $color-text;
 			font-size: $default-font-size;
 		}
+	}
 	
 
 

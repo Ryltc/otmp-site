@@ -61,13 +61,13 @@ body {
     .card__side--front {
       position: absolute;
       width: 100%;
-      height: 100%;
+      height: auto;
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden; }
-  .card--back {
-    transform: rotateY(180deg);
-    text-decoration-color: #FFFFFF;
-    font-size: 6rem; }
+    .card__side--back {
+      transform: rotateY(180deg);
+      text-decoration-color: #FFFFFF;
+      font-size: 6rem; }
   .card:hover .card__side--front {
     transform: rotatY(-180deg); }
   .card:hover .card__side--back {
