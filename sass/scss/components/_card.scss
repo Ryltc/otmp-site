@@ -42,18 +42,18 @@
 	}
 
 	&__picture {
-		background-size: cover;
 		background-blend-mode: normal;
-			img {
-				width: 100%;
-				height: auto;
 
 		&--1 {
 			background-image: url(../img/mix.jpg);
+			width: 100%;
+			height: auto;
 		}
 
 		&--2 {
-			background-image: url(../img/me.jpg)
+			background-image: url(../img/me.jpg);
+			width: 100%;
+			height: auto;
 		}
 	}
 
@@ -85,5 +85,4 @@
 			}
 		}
 	}
-}
 
