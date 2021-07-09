@@ -51,8 +51,8 @@ body {
   .card__side {
     position: absolute;
     transition: all .5s;
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
     text-align: center;
     transition: .5s;
     transform-style: preserve-3d;
@@ -76,11 +76,11 @@ body {
     background-blend-mode: normal; }
     .card__picture--1 {
       background-image: url(../img/mix.jpg);
-      width: 100%;
+      width: auto;
       height: auto; }
     .card__picture--2 {
       background-image: url(../img/me.jpg);
-      width: 100%;
+      width: auto;
       height: auto; }
   .card__heading {
     font-size: 10rem;
