@@ -39,13 +39,13 @@
 		background-blend-mode: normal;
 
 		&--1 {
-			background-image: url(../img/mix.jpg);
+			img: url(../img/mix.jpg);
 			width: auto;
 			height: auto;
 		}
 
 		&--2 {
-			background-image: url(../img/me.jpg);
+			img: url(../img/me.jpg);
 			width: auto;
 			height: auto;
 		}

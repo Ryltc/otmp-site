@@ -69,11 +69,11 @@ body {
     background-size: cover;
     background-blend-mode: normal; }
     .card__picture--1 {
-      background-image: url(../img/mix.jpg);
+      img: url(../img/mix.jpg);
       width: auto;
       height: auto; }
     .card__picture--2 {
-      background-image: url(../img/me.jpg);
+      img: url(../img/me.jpg);
       width: auto;
       height: auto; }
   .card__heading {
