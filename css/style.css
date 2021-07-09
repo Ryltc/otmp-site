@@ -94,6 +94,14 @@ body {
 .footer {
   text-align: center; }
 
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: stretch;
+  align-items: stretch; }
+
 .header {
   height: 95vh;
   background-image: linear-gradient(to right bottom, rgba(105, 105, 122, 0.4), rgba(89, 39, 1, 0.4)), url(../img/keys.jpg);
@@ -134,7 +142,7 @@ body {
 .section-studio {
   padding: 25rem;
   text-align: center;
-  font-size: 1.5em; }
+  font-size: 2em; }
 
 .section-engineer {
   padding: 25rem;
@@ -145,16 +153,3 @@ body {
   padding: 25rem;
   text-align: center;
   font-size: 1.5em; }
-
-.section-recent-projects {
-  padding: 25rem;
-  font-size: 1.5em; }
-
-.section-contact {
-  padding: 25rem;
-  text-align: center;
-  font-size: 1.5em; }
-
-.footer {
-  text-align: center;
-  padding: 3px; }
