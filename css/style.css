@@ -94,13 +94,14 @@ body {
 .footer {
   text-align: center; }
 
-.container {
+.w3-container {
   display: grid;
   grid-template-columns: 1fr;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   justify-items: stretch;
-  align-items: stretch; }
+  align-items: stretch;
+  margin: 0; }
 
 .header {
   height: 95vh;
