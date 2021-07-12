@@ -4,7 +4,8 @@
   "description": "landing page for studio",
   "main": "index.js",
   "scripts": {
-    "sass-transpile": "node-sass sass/scss/main.scss css/style.css -w"
+    "sass-transpile": "node-sass sass/scss/main.scss css/style.css -w",
+    "start": "http-server -c-1 -p 8081"
   },
   "repository": {
     "type": "git",
