@@ -19,8 +19,16 @@
 
 		&--front--1 {
 			background-image: url(../img/mix.jpg);
+			background-size: 100% 100%;
 		}
 
+		&--front--2 {
+			background-image: url(../img/me.jpg);
+			background-size: 100% 100%;
+		}
+		&--back--1 {
+			transform: rotateY(180deg);
+		}
 		&--back--2 {
 			transform: rotateY(180deg);
 		}
@@ -59,7 +67,7 @@
 		font-weight: 400;
 		text-transform: uppercase;
 		text-align: center;
-		color: $color-text;
+		color: #ffffff;
 		top: 12rem;
         right: 2rem;
         width: 75%;
@@ -75,6 +83,7 @@
 		p {
 			text-align: center;
 			font-size: detault-font-size;
+			text-decoration-color: #fff;
 			}
 		}
 	}

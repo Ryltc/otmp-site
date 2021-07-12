@@ -60,7 +60,13 @@ body {
     border-radius: 3px;
     overflow: hidden; }
     .card__side--front--1 {
-      background-image: url(../img/mix.jpg); }
+      background-image: url(../img/mix.jpg);
+      background-size: 100% 100%; }
+    .card__side--front--2 {
+      background-image: url(../img/me.jpg);
+      background-size: 100% 100%; }
+    .card__side--back--1 {
+      transform: rotateY(180deg); }
     .card__side--back--2 {
       transform: rotateY(180deg); }
   .card:hover .card__side--front {
@@ -82,7 +88,7 @@ body {
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     top: 12rem;
     right: 2rem;
     width: 75%; }
@@ -92,7 +98,8 @@ body {
     padding: 5rem; }
     .card__details p {
       text-align: center;
-      font-size: detault-font-size; }
+      font-size: detault-font-size;
+      text-decoration-color: #fff; }
 
 .footer {
   text-align: center; }
@@ -144,16 +151,13 @@ body {
         background-color: #111; }
 
 .section-studio {
-  padding: 25rem;
   text-align: center;
   font-size: 2.2em; }
 
 .section-engineer {
-  padding: 25rem;
   text-align: center;
   font-size: 2.2em; }
 
 .section-rates {
-  padding: 25rem;
   text-align: center;
   font-size: 2.2em; }
