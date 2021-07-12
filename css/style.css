@@ -59,9 +59,9 @@ body {
     backface-visibility: hidden;
     border-radius: 3px;
     overflow: hidden; }
-    .card__side--front {
+    .card__side--front--1 {
       background-image: url(../img/mix.jpg); }
-    .card__side--back {
+    .card__side--back--2 {
       transform: rotateY(180deg); }
   .card:hover .card__side--front {
     transform: rotatY(-180deg); }
