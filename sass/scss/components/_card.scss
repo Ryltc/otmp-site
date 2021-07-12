@@ -25,6 +25,7 @@
 			transform: rotateY(180deg);
 		}
 	}
+
 	
 
 
@@ -47,14 +48,10 @@
         
 		&--1 {
 			img: url(../img/mix.jpg);
-			width: auto;
-			height: auto;
 		}
 
 		&--2 {
 			img: url(../img/me.jpg);
-			width: auto;
-			height: auto;
 		}
 	}
 

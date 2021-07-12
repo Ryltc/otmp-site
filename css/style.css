@@ -76,13 +76,9 @@ body {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
     .card__picture--1 {
-      img: url(../img/mix.jpg);
-      width: auto;
-      height: auto; }
+      img: url(../img/mix.jpg); }
     .card__picture--2 {
-      img: url(../img/me.jpg);
-      width: auto;
-      height: auto; }
+      img: url(../img/me.jpg); }
   .card__heading {
     font-size: 23rem;
     font-weight: 400;
