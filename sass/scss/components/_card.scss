@@ -8,7 +8,7 @@
 
 
 	&__side {
-        height: 40rem;
+        height: 53rem;
         transition: all .5s ease;
         top: 0;
         left: 0;
@@ -18,10 +18,11 @@
         overflow: hidden;
 
 		&--front {
-			background-color: transparent;
+			background-image: url(../img/mix.jpg);
 		}
 
 		&--back {
+			background-image: url(../img/me.jpg);
 			transform: rotateY(180deg);
 		}
 	}

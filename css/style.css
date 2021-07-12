@@ -51,7 +51,7 @@ body {
   width: auto;
   border: 2px solid #color-primary-dark; }
   .card__side {
-    height: 40rem;
+    height: 53rem;
     transition: all .5s ease;
     top: 0;
     left: 0;
@@ -60,8 +60,9 @@ body {
     border-radius: 3px;
     overflow: hidden; }
     .card__side--front {
-      background-color: transparent; }
+      background-image: url(../img/mix.jpg); }
     .card__side--back {
+      background-image: url(../img/me.jpg);
       transform: rotateY(180deg); }
   .card:hover .card__side--front {
     transform: rotatY(-180deg); }
