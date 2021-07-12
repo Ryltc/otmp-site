@@ -39,13 +39,13 @@
 
 	&__picture {
 		background-size: cover;
-		height: 23rem;
+		height: 16rem;
 		background-blend-mode: screen;
         border-top-left-radius: 3px;
         border-top-right-radius: 3px;
         
 		&--1 {
-			img: url(../img/mix.jpg);
+			background-image: url(../img/mix/jpg);
 		}
 
 		&--2 {
