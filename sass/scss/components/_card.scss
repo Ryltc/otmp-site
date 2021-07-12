@@ -1,4 +1,7 @@
 .card {
+	perspective: 150rem;
+    -moz-perspective: 150rem;
+    position: relative;
 	height: auto;
 	width: auto;
 	border: 2px solid #color-primary-dark;
@@ -15,7 +18,7 @@
         overflow: hidden;
 
 		&--front {
-			background-color: transparent;
+			background-color: orangered;
 		}
 
 		&--back {
@@ -36,13 +39,13 @@
 	&__picture {
 
 		&--1 {
-			img: url(../img/mix.jpg);
+			img: url(../../img/mix.jpg);
 			width: auto;
 			height: auto;
 		}
 
 		&--2 {
-			img: url(../img/me.jpg);
+			img: url(../../img/me.jpg);
 			width: auto;
 			height: auto;
 		}
@@ -50,7 +53,7 @@
 
 
 	&__heading {
-		font-size: 10rem;
+		font-size: 23rem;
 		font-weight: 400;
 		text-transform: uppercase;
 		text-align: center;
