@@ -26,10 +26,17 @@
 			background-image: url(../img/me.jpg);
 			background-size: 100% 100%;
 		}
+		&--front--3 {
+			background-image: url(../img/cone.jpg);
+			background-size: 100% 100%;
+		}
 		&--back--1 {
 			transform: rotateY(180deg);
 		}
 		&--back--2 {
+			transform: rotateY(180deg);
+		}
+		&--back--3 {
 			transform: rotateY(180deg);
 		}
 	}
@@ -75,6 +82,7 @@
 
 	&__heading-span {
 		padding: 1rem 1.5rem;
+		text-align: center;
 	}
 
 	&__details {

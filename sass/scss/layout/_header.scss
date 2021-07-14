@@ -1,5 +1,5 @@
 .header {
-	height: 95vh;
+	height: 80vh;
 	background-image: linear-gradient(
 		to right bottom, 
 		rgba($color-primary-light, 0.4), 
@@ -10,6 +10,7 @@
 	position: relative;
 
 	&__text-box {
+		color: white;
 		position: absolute;
     	top: 40%;
     	left: 50%;
@@ -18,6 +19,7 @@
 	}
 
 	&__text-box-1 {
+		color: white;
 		position: absolute;
     	top: 55%;
     	left: 50%;
@@ -25,9 +27,10 @@
     	text-align: center;
 	}
 
-	&__navigation {
+	/*&__navigation {
 		width: 100%;
-		display: inline-block;
+		display: block;
+
 		ul {
 			list-style-type: none;
 			margin: 0;
@@ -37,11 +40,12 @@
 		}
 		li {
 			display: inline;
-			font-size: 20px;
+
 		}
 		a {
 			text-decoration-color: #ffffff;
 			text-decoration: none;
+			font-size: 40px;			
 			padding: 14px;
 			&:hover {
 				background-color: #111;
@@ -49,7 +53,7 @@
 
 		}
 
-	}
+	}*/
 
 }
 
