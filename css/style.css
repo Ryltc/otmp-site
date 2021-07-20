@@ -91,25 +91,25 @@ body {
     width: 100%;
     backface-visibility: hidden;
     border-radius: 3px;
-    overflow: hidden;
-    /*&--back--1 {
-			transform: rotateY(180deg);
-		}
-		&--back--2 {
-			transform: rotateY(180deg);
-		}
-		&--back--3 {
-			transform: rotateY(180deg);
-		}*/ }
+    overflow: hidden; }
     .card__side--front--1 {
-      background-image: url(../img/mix.jpg);
+      /*background-image: url(../img/mix.jpg);*/
+      background-color: orangered;
       background-size: 100% 100%; }
     .card__side--front--2 {
-      background-image: url(../img/me.jpg);
+      /*background-image: url(../img/me.jpg);*/
+      background-color: orangered;
       background-size: 100% 100%; }
     .card__side--front--3 {
-      background-image: url(../img/cone.jpg);
+      /*background-image: url(../img/cone.jpg);*/
+      background-color: orangered;
       background-size: 100% 100%; }
+    .card__side--back--1 {
+      transform: rotateY(-180deg); }
+    .card__side--back--2 {
+      transform: rotateY(-180deg); }
+    .card__side--back--3 {
+      transform: rotateY(-180deg); }
   .card:hover .card__side--front {
     transform: rotatY(-180deg); }
   .card:hover .card__side--back {
@@ -123,7 +123,7 @@ body {
     .card__picture--1 {
       background-image: url(../img/mix/jpg); }
     .card__picture--2 {
-      img: url(../img/me.jpg); }
+      background-image: url(../img/me/jpg); }
   .card__heading {
     font-size: 23rem;
     font-weight: 400;
@@ -140,21 +140,8 @@ body {
     padding: 5rem; }
     .card__details p {
       text-align: center;
-      font-size: detault-font-size;
+      font-size: default-font-size;
       text-decoration-color: #fff; }
-
-.footer {
-  padding: 10rem 0;
-  font-size: 1.5rem;
-  text-align: center;
-  text-decoration-color: #fff;
-  background-color: #000; }
-
-li a:hover:not(.active) {
-  background-color: #111; }
-
-.active {
-  background-color: #04AA6D; }
 
 .w3-container {
   display: grid;
@@ -186,6 +173,23 @@ li a:hover:not(.active) {
     transform: translate(-50%, -50%);
     text-align: center; }
 
+.footer {
+  padding: 10rem 0;
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+  text-decoration-color: #fff;
+  background-color: #000; }
+  .footer p {
+    color: #fff; }
+
+/*li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #000000;
+}*/
 .section-studio {
   text-align: center;
   font-size: 2.2em; }
