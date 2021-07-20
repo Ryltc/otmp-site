@@ -1,9 +1,9 @@
-.header {
+.page-header {
 	height: 80vh;
 	background-image: linear-gradient(
 		to right bottom, 
-		rgba($color-primary-light, 0.4), 
-		rgba($color-primary-dark, 0.4)),
+		rgba($color-primary-light, 0.2), 
+		rgba($color-primary-dark, 0.2)),
 	url(../img/keys.jpg);
 	background-size: cover;
 	background-position: top;

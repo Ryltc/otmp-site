@@ -1,14 +1,17 @@
 body {
-	font-family: "Lato", sans-serif;
 	font-weight: 500;
 	color: $color-primary;
-	header {
+
+/*.page-header {
 	height: 80vh;
 	background-image: url(../img/keys.jpg);
 	background-size: cover;
-    background-position: top;
+	background-position: top;
+
+	.header-text-box-1 {
+		position: relative;
 	}
-}
+}*/
 
 .heading-primary {
 	text-transform: uppercase;
@@ -39,4 +42,5 @@ body {
 
 .paragraph {
 
+	}
 }
