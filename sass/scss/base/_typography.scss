@@ -1,46 +1,39 @@
 body {
 	font-weight: 500;
 	color: $color-primary;
+	width: 100%;
+	height: 100%;
 
-/*.page-header {
-	height: 80vh;
-	background-image: url(../img/keys.jpg);
-	background-size: cover;
-	background-position: top;
-
-	.header-text-box-1 {
+	.row {
+		//-webkit-justify-content: center;
 		position: relative;
+		background-color: black;
 	}
-}*/
 
-.heading-primary {
-	text-transform: uppercase;
-	text-align: center;
-	text-decoration: underline;
-	font-size: 8rem;
-	font-weight: 600;
-	letter-spacing: 3.5rem;
-}
+	.container-fluid {
+		position: relative;
+		min-height: 100%;
+	}
 
-.heading-secondary {
-	text-transform: uppercase;
-	text-align: center;
-	text-decoration: none;
-	font-size: 4rem;
-	font-weight: 200;
-	letter-spacing: 1.5rem;
-}
+	.container {
+		position: relative;
+		background-color: #000;
+		min-height: 100vh;
+		overflow: hidden;
+		display: block;
+		padding-bottom: 100px;
+	}
 
-.heading-topnav {
-	text-transform: uppercase;
-	text-align: center;
-	text-decoration: none;
-	font-size: 4rem;
-
-
-}
-
-.paragraph {
-
+	.section {
+		position: relative;
+		margin-top: 100%;
+		background-color: #000;
+		margin-bottom: auto;
+		padding-bottom: 120px;
+		margin-bottom: auto;
 	}
 }
+
+
+
+

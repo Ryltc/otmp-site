@@ -1,12 +1,15 @@
 .card {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 300px;
+	backface-visibility: hidden;
+	display: flex;
+	justify-content: space-between;
+  position: relative;
+  left: 40%;
+  width: 400px;
   height: 300px;
   margin: -150px;
+  margin-bottom: 10px;
   float: none;
-  perspective: 500px;
+  perspective: 1000px;
   background-color: transparent;
 
   &__card-img {
@@ -27,7 +30,7 @@
   width: 100%;
   height: 100%;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
-
+  font-size: 30px;
   transition: transform 1s;
   transform-style: preserve-3d;
 }
@@ -47,7 +50,7 @@
   line-height: 300px;
   color: #ffffff;
   text-align: center;
-  font-size: 60px;
+  font-size: 10rem;
   border-radius: 5px;
   backface-visibility: hidden;
 }
@@ -55,114 +58,13 @@
 .card-title {
 	width: 18rem;
 	text-align: center;
+	float: right;
 }
 
 .back {
   background: #000000;
   color: white;
   transform: rotateY( 180deg );
-  font-size: .975rem;
+  font-size: 1rem;
   line-height: 2.6;
 }
-
-/*.card {
-	perspective: 150rem;
-    -moz-perspective: 150rem;
-    position: relative;
-	height: auto;
-	width: auto;
-	border: 2px solid #color-primary-dark;
-	display: inline-block;
-
-
-	&__side {
-        height: 53rem;
-        transition: all .5s ease;
-        top: 0;
-        left: 0;
-        width: 100%;
-        backface-visibility: hidden;
-        border-radius: 3px;
-        overflow: hidden;
-
-		&--front--1 {
-			background-image: url(../img/mix.jpg);
-			background-color: orangered;
-			background-size: 100% 100%;
-		}
-		&--front--2 {
-			background-image: url(../img/me.jpg);
-			background-color: orangered;
-			background-size: 100% 100%;
-		}
-		&--front--3 {
-			background-image: url(../img/cone.jpg);
-			background-color: orangered;
-			background-size: 100% 100%;
-		}
-		&--back--1 {
-			transform: rotateY(-180deg);
-		}
-		&--back--2 {
-			transform: rotateY(-180deg);
-		}
-		&--back--3 {
-			transform: rotateY(-180deg);
-		}
-	}
-
-	
-
-
-	&:hover &__side--front {
-		transform: rotatY(-180deg);
-	}
-
-	&:hover &__side--back {
-		transform: rotateY(0);
-	}
-
-	&__picture {
-		background-size: cover;
-		height: 16rem;
-		background-blend-mode: screen;
-        border-top-left-radius: 3px;
-        border-top-right-radius: 3px;
-        
-		&--1 {
-			background-image: url(../img/mix/jpg);
-		}
-
-		&--2 {
-			background-image: url(../img/me/jpg);
-		}
-	}
-
-
-	&__heading {
-		font-size: 23rem;
-		font-weight: 400;
-		text-transform: uppercase;
-		text-align: center;
-		color: #ffffff;
-		top: 12rem;
-        right: 2rem;
-        width: 75%;
-	}
-
-	&__heading-span {
-		padding: 1rem 1.5rem;
-		text-align: center;
-	}
-
-	&__details {
-		padding: 5rem;
-
-		p {
-			text-align: center;
-			font-size: default-font-size;
-			text-decoration-color: #fff;
-			}
-		}
-	}
-*/

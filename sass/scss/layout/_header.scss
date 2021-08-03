@@ -1,11 +1,12 @@
 .header {
-	height: 80vh;
+	height: 75vh;
 	background-image: linear-gradient(
 		to right bottom, 
 		rgba($color-primary-light, 0.1), 
 		rgba($color-primary-dark, 0.1)),
 	url(../img/keys.jpg);
-	padding-top: 10rem;
+	padding-top: 4rem;
+	padding-bottom: 6rem;
 	width: 100%;
 	background-size: cover;
 	background-position: top;
@@ -20,7 +21,7 @@
     	transform: translate(-50%, -50%);
     	text-align: center;
     	font-weight: 900;
-    	font-size: 5rem;
+    	font-size: 10rem;
     	text-transform: uppercase;
     	p {
     		text-decoration: underline;
