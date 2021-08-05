@@ -132,7 +132,7 @@ body {
   line-height: 2.6; }
 
 .header {
-  height: 75vh;
+  height: 100vh;
   background-image: linear-gradient(to right bottom, rgba(105, 105, 122, 0.1), rgba(89, 39, 1, 0.1)), url(../img/keys.jpg);
   padding-top: 4rem;
   padding-bottom: 6rem;
