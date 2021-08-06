@@ -84,7 +84,8 @@ body {
   margin-bottom: 10px;
   float: none;
   perspective: 1000px;
-  background-color: transparent; }
+  background-color: transparent;
+  border-color: red; }
   .card__card-img {
     width: 100%;
     height: 50vh;
