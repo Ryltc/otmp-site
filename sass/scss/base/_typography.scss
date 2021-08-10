@@ -24,10 +24,23 @@ body {
 		padding-bottom: 10.9vh;
 	}
 
+	.order-lg-3 img {
+		border: 5px solid red;
+	}
+
+	.order-lg-1 img {
+		border: 5px solid blue;
+	}
+
 	.section {
 		position: relative;
 		background-color: black;
 		margin-bottom: auto;
+	}
+
+	.img-fluid {
+		width: 100%;
+		height: auto;
 	}
 
 }

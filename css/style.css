@@ -21,10 +21,17 @@ body {
     overflow: hidden;
     display: block;
     padding-bottom: 10.9vh; }
+  body .order-lg-3 img {
+    border: 5px solid red; }
+  body .order-lg-1 img {
+    border: 5px solid blue; }
   body .section {
     position: relative;
     background-color: black;
     margin-bottom: auto; }
+  body .img-fluid {
+    width: 100%;
+    height: auto; }
 
 *,
 *::after,
@@ -140,8 +147,8 @@ body {
   height: 100vh;
   background-image: linear-gradient(to right bottom, rgba(105, 105, 122, 0.1), rgba(89, 39, 1, 0.1)), url(../img/keys.jpg);
   padding-top: 4rem;
-  padding-bottom: 6rem;
-  width: 100%;
+  padding-bottom: 3rem;
+  width: 100vw;
   background-size: cover;
   background-position: top;
   position: relative;
