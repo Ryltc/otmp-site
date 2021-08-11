@@ -1,5 +1,5 @@
 .header {
-	height: 100vh;
+	height: 50vh;
 	background-image: linear-gradient(
 		to right bottom, 
 		rgba($color-primary-light, 0.1), 
@@ -9,7 +9,7 @@
 	padding-bottom: 3rem;
 	width: 100vw;
 	background-size: cover;
-	background-position: top;
+	//background-position: top;
 	position: relative;
 	z-index: -1;
 

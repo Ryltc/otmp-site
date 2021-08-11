@@ -59,6 +59,12 @@
   backface-visibility: hidden;
 }
 
+.card-img {
+   width: 100;
+   height: 15vh;
+   object-fit: cover;
+}
+
 .card-title {
 	width: 18rem;
 	text-align: center;
