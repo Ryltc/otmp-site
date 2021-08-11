@@ -99,9 +99,10 @@ body {
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
   .card__card-img {
     width: 100%;
-    height: 50vh;
-    object-fit: cover; }
-    .card__card-img__card-body {
+    height: auto;
+    object-fit: cover;
+    display: block; }
+    .card__card-img__responsive-img {
       object-fit: cover; }
 
 .content {
@@ -130,11 +131,6 @@ body {
   font-size: 10rem;
   border-radius: 5px;
   backface-visibility: hidden; }
-
-.card-img {
-  width: 100;
-  height: 15vh;
-  object-fit: cover; }
 
 .card-title {
   width: 18rem;
