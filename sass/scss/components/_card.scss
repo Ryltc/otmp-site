@@ -1,13 +1,37 @@
-.card {
+.card{
+  width: 20%;
+  background-color: transparent;
+  border: 1px solid orangered;
+  margin-bottom: 50px
+  transition: 0.3s;
+}
+
+.card-header {
+  text-align: center;
+  padding: 50px 10px;
+}
+
+.card-body {
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+
+
+/*.card {
 	backface-visibility: hidden;
+  display: inline-block;
   //overflow: hidden;
   background-color: black;
 	display: flex;
+  //flex-basis: auto;
 	justify-content: space-between;
   position: relative;
   left: 40%;
-  width: 400px;
-  height: 300px;
+  max-width: 400px;
+  max-height: 300px;
   margin: -150px;
   margin-bottom: 10px;
   float: none;
@@ -17,10 +41,14 @@
   box-shadow: 0 1.5rem 4rem rgba(#000, .15);
 
   &__card-img {
-  	width: 100%;
-  	height: auto;
-  	object-fit: cover;
-    display: block;
+  	//width: 100%;
+  	//height: auto;
+  	//object-fit: scale-down;
+    //display: block;
+    float: left;
+    width: 100px;
+    height: 100px;
+    //object-fit: cover;
 
   &__responsive-img {
   	object-fit: cover;
@@ -73,3 +101,5 @@
   font-size: 1.34rem;
   line-height: 2.6;
 }
+*/
+

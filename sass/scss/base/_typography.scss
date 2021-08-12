@@ -6,6 +6,7 @@ body {
 
 	.row {
 		//-webkit-justify-content: center;
+		display: flex;
 		position: relative;
 		background-color: black;
 	}
@@ -16,12 +17,21 @@ body {
 	}
 
 	.container {
-		position: relative;
-		background-color: #000;
-		min-height: 100vh;
-		overflow: hidden;
-		display: block;
-		padding-bottom: 10.9vh;
+		width: 90%;
+		margin: 50px auto;
+		//position: relative;
+		//background-color: #000;
+		//min-height: 100vh;
+		//overflow: hidden;
+		//display: block;
+		//padding-bottom: 10.9vh;
+	}
+
+	.heading {
+		text-align: center;
+		font-size: 30px;
+		margin-bottom: 50px;
+
 	}
 
 	.order-lg-3 img {
@@ -36,6 +46,7 @@ body {
 		position: relative;
 		background-color: black;
 		margin-bottom: auto;
+		display: inline-block;
 	}
 
 	.img-fluid {

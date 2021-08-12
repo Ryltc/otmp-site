@@ -1,17 +1,21 @@
 .header {
+	display: flex;
+	flex: 0 1 40vw;
 	height: 50vh;
+	justify-content: center;
+	align-items: center;
 	background-image: linear-gradient(
 		to right bottom, 
 		rgba($color-primary-light, 0.1), 
 		rgba($color-primary-dark, 0.1)),
 	url(../img/keys.jpg);
-	padding-top: 4rem;
-	padding-bottom: 3rem;
-	width: 100vw;
-	background-size: cover;
+	//padding-top: 4rem;
+	//padding-bottom: 3rem;
+	//width: 100vw;
+	//background-size: cover;
 	//background-position: top;
-	position: relative;
-	z-index: -1;
+	//position: relative;
+	//z-index: -1;
 
 	&__text-box {
 		color: white;
@@ -25,6 +29,11 @@
     	text-transform: uppercase;
     	p {
     		text-decoration: underline;
+    		font-size: 10vw;
+    	}
+    	h2 {
+    		font-weight: 10rem;
+    		font-size: 5vw;
     	}
 	}
 }

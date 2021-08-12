@@ -15,12 +15,12 @@ body {
     position: relative;
     min-height: 100%; }
   body .container {
-    position: relative;
-    background-color: #000;
-    min-height: 100vh;
-    overflow: hidden;
-    display: block;
-    padding-bottom: 10.9vh; }
+    width: 90%;
+    margin: 50px auto; }
+  body .heading {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px; }
   body .order-lg-3 img {
     border: 5px solid red; }
   body .order-lg-1 img {
@@ -28,7 +28,8 @@ body {
   body .section {
     position: relative;
     background-color: black;
-    margin-bottom: auto; }
+    margin-bottom: auto;
+    display: inline-block; }
   body .img-fluid {
     width: 100%;
     height: auto; }
@@ -44,10 +45,24 @@ html {
   font-size: 62.5%; }
 
 body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   box-sizing: border-box;
   margin-bottom: 60px;
-  height: 100%;
+  height: auto;
   position: relative; }
+
+main {
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1), -30px 0px 40px rgba(0, 0, 0, 0.1); }
+
+@media (min-width: 500px) {
+  .header {
+    display: flex;
+    height: 100%; } }
 
 .navigation {
   width: 100%;
@@ -83,13 +98,14 @@ body {
 
 .card {
   backface-visibility: hidden;
+  display: inline-block;
   background-color: black;
   display: flex;
   justify-content: space-between;
   position: relative;
   left: 40%;
-  width: 400px;
-  height: 300px;
+  max-width: 400px;
+  max-height: 300px;
   margin: -150px;
   margin-bottom: 10px;
   float: none;
@@ -98,10 +114,9 @@ body {
   border-color: red;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
   .card__card-img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    display: block; }
+    float: left;
+    width: 100px;
+    height: 100px; }
     .card__card-img__responsive-img {
       object-fit: cover; }
 
@@ -145,14 +160,12 @@ body {
   line-height: 2.6; }
 
 .header {
+  display: flex;
+  flex: 0 1 40vw;
   height: 50vh;
-  background-image: linear-gradient(to right bottom, rgba(105, 105, 122, 0.1), rgba(89, 39, 1, 0.1)), url(../img/keys.jpg);
-  padding-top: 4rem;
-  padding-bottom: 3rem;
-  width: 100vw;
-  background-size: cover;
-  position: relative;
-  z-index: -1; }
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right bottom, rgba(105, 105, 122, 0.1), rgba(89, 39, 1, 0.1)), url(../img/keys.jpg); }
   .header__text-box {
     color: white;
     position: absolute;
@@ -164,12 +177,18 @@ body {
     font-size: 10rem;
     text-transform: uppercase; }
     .header__text-box p {
-      text-decoration: underline; }
+      text-decoration: underline;
+      font-size: 10vw; }
+    .header__text-box h2 {
+      font-weight: 10rem;
+      font-size: 5vw; }
 
-.footer {
+footer {
+  margin-top: auto;
+  position: absolute;
   padding: 10rem 0;
   height: 1rem;
-  width: 100%;
+  width: auto;
   font-size: 2rem;
   text-align: center;
   color: #fff;
@@ -178,7 +197,7 @@ body {
   line-height: 2;
   font-weight: 300;
   bottom: 0; }
-  .footer p {
+  footer p {
     color: #fff; }
 
 /*.section-studio {
@@ -203,6 +222,9 @@ body {
   padding: 7rem 0; }
 
 .section {
+  height: 1020px;
+  width: 480px;
+  border: 1px solid red;
   position: relative;
   background-color: black;
   padding: 25rem 0 15rem 0;
