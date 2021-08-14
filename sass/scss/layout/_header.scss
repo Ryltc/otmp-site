@@ -7,10 +7,11 @@
 	url(../img/keys.jpg);	
 	}*/
 .header {
-	position: fixed;
+	overflow: hidden;
+	position: relative;
 	display: flex;
 	//flex: 0 1 40vw;
-	height: 100vh;
+	height: 100%;
 	justify-content: center;
 	align-items: center;
 	background-image: linear-gradient(
@@ -18,8 +19,7 @@
 		rgba($color-primary-light, 0.1), 
 		rgba($color-primary-dark, 0.1)),
 	url(../img/keys.jpg);
-	padding-top: 4rem;
-	padding-bottom: 3rem;
+	margin-top: 0;
 	width: 100vw;
 	background-size: cover;
 	background-position: top;

@@ -9,13 +9,12 @@ body {
   height: 100%; }
   body .row {
     -webkit-justify-content: left;
-    display: flex;
-    flex-wrap: wrap;
     position: relative;
-    width: 1400px;
+    width: 2400px;
     align-items: center;
-    margin-top: 600px;
-    margin-right: 0px; }
+    margin-top: 450px;
+    margin-bottom: 50px;
+    z-index: 1; }
   body .container-fluid {
     position: relative;
     min-height: 100%; }
@@ -38,10 +37,9 @@ body {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  padding-bottom: 50px;
-  margin-bottom: 60px;
-  height: auto;
-  position: relative; }
+  margin-top: 0;
+  margin-bottom: 0;
+  position: absolute; }
 
 main {
   max-width: 900px;
@@ -81,8 +79,8 @@ main {
       background-color: #808080; }
 
 .card-wrapper {
-  height: 250px;
-  width: 300px;
+  height: 300px;
+  width: 400px;
   perspective: 1000px;
   align-items: center;
   float: left; }
@@ -92,9 +90,13 @@ main {
   float: left;
   width: 100%;
   height: 100%;
+  text-transform: uppercase;
+  font-size: 11.5px;
   text-align: center;
   transition: transform .08s;
   transform-style: preserve-3d; }
+  .content :last-child {
+    text-transform: lowercase; }
 
 .card-wrapper:hover .content {
   transform: rotateY(180deg);
@@ -205,14 +207,14 @@ main {
 	url(../img/keys.jpg);	
 	}*/
 .header {
-  position: fixed;
+  overflow: hidden;
+  position: relative;
   display: flex;
-  height: 100vh;
+  height: 100%;
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(to right bottom, rgba(105, 105, 122, 0.1), rgba(89, 39, 1, 0.1)), url(../img/keys.jpg);
-  padding-top: 4rem;
-  padding-bottom: 3rem;
+  margin-top: 0;
   width: 100vw;
   background-size: cover;
   background-position: top;
@@ -241,9 +243,9 @@ main {
 
 .footer {
   margin-top: auto;
-  position: absolute;
+  position: fixed;
   padding: 10rem 0;
-  height: 1rem;
+  height: 5px;
   width: 100%;
   font-size: 2rem;
   text-align: center;

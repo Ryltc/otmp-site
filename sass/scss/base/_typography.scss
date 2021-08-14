@@ -6,15 +6,16 @@ body {
 
 	.row {
 		-webkit-justify-content: left;
-		display: flex;
-		flex-wrap: wrap;
+		//display: flex;
+		//flex-wrap: wrap;
 		//flex-basis: auto;
 		position: relative;
 		//background-color: black;
-		width: 1400px;
+		width: 2400px;
 		align-items: center;
-		margin-top: 600px;
-		margin-right: 0px;
+		margin-top: 450px;
+		margin-bottom: 50px;
+		z-index: 1;
 	}
 
 	.container-fluid {
