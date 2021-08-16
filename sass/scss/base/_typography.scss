@@ -4,22 +4,7 @@ body {
 	width: 100%;
 	height: 100%;
 
-.row {
-	//-webkit-justify-content: left;
-	//display: flex;
-	//flex-wrap: wrap;
-	//flex-basis: auto;
-	position: relative;
-	//background-color: black;
-	width: 2400px;
-	//align-items: center;
-	margin-top: 450px;
-	margin-bottom: 50px;
-	//z-index: 1;
-	//display: inline;
-}
-
-.container mt-6 {
+.container {
 	position: relative;
 	min-height: 100%;
 	display: inline;
@@ -31,14 +16,25 @@ body {
 	//overflow: hidden;
 	//display: block;
 	//padding-bottom: 10.9vh;
-	background-image: linear-gradient(
-	to right bottom, 
-		rgba($color-primary-light, 0.1), 
-		rgba($color-primary-dark, 0.1)),
-	url(../img/keys.jpg);
 }
+
+.row {
+	-webkit-justify-content: left;
+	display: flex;
+	flex-wrap: wrap;
+	flex-basis: auto;
+	position: relative;
+	//background-color: black;
+	width: 2400px;
+	//align-items: center;
+	margin-top: 600px;
+	margin-bottom: 400px;
+	z-index: 1;
+	//display: inline-block;
+}
+
 
 	h4 {
 		text-transform: uppercase;
-}
+	}
 }
