@@ -1,22 +1,24 @@
 .card-wrapper {
-  height: 300px;
-  width: 400px;
+  height: 600px;
+  width: 500px;
   perspective: 1000px;
   align-items: center;
   float: left;
+  z-index: 6;
 }
 
 .content {
+  z-index: 3;
   position: static;
   float: left;
   width: 100%;
   height: 100%;
   font-size: 11.5px;
   text-transform: uppercase;
+  text-align-last: left;
   text-align: center;
-    &:not(:last-child) {
-      text-align: none;
-  }
+    //&:not(:last-child) {
+     // text-align: none;
 
   transition: transform .08s;
   transform-style: preserve-3d;
@@ -30,7 +32,7 @@
 .face-front, .face-back {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 57%;
   background-color: #000;
   color: white;
   backface-visibility: hidden;

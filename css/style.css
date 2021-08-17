@@ -17,9 +17,9 @@ body {
     flex-wrap: wrap;
     flex-basis: auto;
     position: relative;
-    width: 100vw;
+    width: 2400px;
     margin-top: 600px;
-    margin-bottom: 400px;
+    margin-bottom: 200px;
     z-index: 1; }
   body h4 {
     text-transform: uppercase; }
@@ -79,24 +79,25 @@ main {
       background-color: #808080; }
 
 .card-wrapper {
-  height: 300px;
-  width: 400px;
+  height: 600px;
+  width: 500px;
   perspective: 1000px;
   align-items: center;
-  float: left; }
+  float: left;
+  z-index: 6; }
 
 .content {
+  z-index: 3;
   position: static;
   float: left;
   width: 100%;
   height: 100%;
   font-size: 11.5px;
   text-transform: uppercase;
+  text-align-last: left;
   text-align: center;
   transition: transform .08s;
   transform-style: preserve-3d; }
-  .content:not(:last-child) {
-    text-align: none; }
 
 .card-wrapper:hover .content {
   transform: rotateY(180deg);
@@ -105,7 +106,7 @@ main {
 .face-front, .face-back {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 57%;
   background-color: #000;
   color: white;
   backface-visibility: hidden; }
