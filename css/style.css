@@ -10,12 +10,11 @@ body {
   body .container-lg {
     position: relative;
     min-height: 100%;
-    display: inline; }
+    display: inline;
+    margin: 50px auto;
+    position: relative; }
   body .row {
-    display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    flex-basis: auto;
     position: relative;
     width: 2400px;
     margin-top: 775px;
@@ -23,6 +22,14 @@ body {
     z-index: 1; }
   body h4 {
     text-transform: uppercase; }
+
+.table tr, th {
+  padding: 10px;
+  text-align: left;
+  margin-top: 51px; }
+
+.table tr, th, td:not(.different) {
+  text-align: center; }
 
 *,
 *::after,
@@ -90,12 +97,11 @@ main {
   z-index: 3;
   position: static;
   float: left;
+  margin-top: 35px;
   width: 100%;
   height: 100%;
-  font-size: 11.5px;
+  font-size: 15px;
   text-transform: uppercase;
-  text-align-last: left;
-  text-align: center;
   transition: transform .08s;
   transform-style: preserve-3d; }
 
@@ -116,6 +122,12 @@ main {
   color: white;
   transform: rotateY(180deg);
   backface-visibility: hidden; }
+
+.card-body__title {
+  text-align: center; }
+
+.card-body {
+  margin-top: 4rem; }
 
 /*.card {
 	backface-visibility: hidden;

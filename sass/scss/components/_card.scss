@@ -11,12 +11,13 @@
   z-index: 3;
   position: static;
   float: left;
+  margin-top: 35px;
   width: 100%;
   height: 100%;
-  font-size: 11.5px;
+  font-size: 15px;
   text-transform: uppercase;
-  text-align-last: left;
-  text-align: center;
+  //text-align-last: left;
+  //text-align: center;
     //&:not(:last-child) {
      // text-align: none;
 
@@ -45,7 +46,13 @@
   backface-visibility: hidden;
 }
 
+.card-body__title {
+  text-align: center;
+}
 
+.card-body {
+  margin-top: 4rem;
+}
 
 /*.card {
 	backface-visibility: hidden;

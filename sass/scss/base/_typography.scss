@@ -14,8 +14,8 @@ body {
 	min-height: 100%;
 	display: inline;
 	//width: 90%;
-	//margin: 50px auto;
-	//position: relative;
+	margin: 50px auto;
+	position: relative;
 	//background-color: #000;
 	//min-height: 100vh;
 	//overflow: hidden;
@@ -25,10 +25,10 @@ body {
 
 .row {
 	//-webkit-justify-content: left;
-	display: flex;;
+	//display: flex;;
 	justify-content: center;
-	flex-wrap: wrap;
-	flex-basis: auto;
+	//flex-wrap: wrap;
+	//flex-basis: auto;
 	position: relative;
 	//background-color: black;
 	width: 2400px;
@@ -44,4 +44,18 @@ body {
 	h4 {
 		text-transform: uppercase;
 	}
+}
+
+.table tr, th {
+	padding: 10px;
+	text-align: left;
+	margin-top: 51px;
+
+	//td:not(.different) {
+	//	text-align: center;
+	//}
+}
+
+.table tr, th, td:not(.different) {
+	text-align: center;
 }
