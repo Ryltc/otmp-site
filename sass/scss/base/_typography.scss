@@ -5,17 +5,22 @@ body {
 	height: 100%;
 
 #page-container {
+	//margin-bottom: 100rem;
 
 
 }
 
-.container-lg {
-	position: relative;
+.container {
+	//position: fixed;
+	//align-items: center;
 	min-height: 100%;
-	display: inline;
+	height: 100%;
+	width: 100%;
+	display: block;
+
+	//display: inline;
 	//width: 90%;
-	margin: 50px auto;
-	position: relative;
+	//margin: 50px auto;
 	//background-color: #000;
 	//min-height: 100vh;
 	//overflow: hidden;
@@ -25,24 +30,25 @@ body {
 
 .row {
 	//-webkit-justify-content: left;
-	//display: flex;;
-	justify-content: center;
-	//flex-wrap: wrap;
-	//flex-basis: auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-basis: auto;
 	position: relative;
 	//background-color: black;
-	width: 2400px;
+	width: 1500px;
 	//width: 100vh;
-	//align-items: center;
+	align-items: center;
 	margin-top: 775px;
 	margin-bottom: 350px;
 	z-index: 1;
-	//display: inline-block;
+	//display: inline;
 }
 
 
 	h4 {
 		text-transform: uppercase;
+		background-color: black;
 	}
 }
 
@@ -59,3 +65,4 @@ body {
 .table tr, th, td:not(.different) {
 	text-align: center;
 }
+

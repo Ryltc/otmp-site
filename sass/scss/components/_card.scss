@@ -1,9 +1,15 @@
 .card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
   height: 600px;
   width: 500px;
+  max-width: 960px;
+
+  padding-right: 10px;
+  padding-left: 10px;
   perspective: 1000px;
-  align-items: center;
-  float: left;
+  //align-items: center;
+  //float: left;
   z-index: 6;
 }
 
@@ -48,12 +54,16 @@
 
 .card-body__title {
   text-align: center;
+  margin-bottom: 2px;
 }
 
 .card-body {
   margin-top: 4rem;
 }
 
+//@media and all (max-width: 500px) {
+  //
+//}
 /*.card {
 	backface-visibility: hidden;
   display: inline-block;

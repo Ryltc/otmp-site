@@ -7,21 +7,25 @@ body {
   font-weight: 500;
   width: 100%;
   height: 100%; }
-  body .container-lg {
-    position: relative;
+  body .container {
     min-height: 100%;
-    display: inline;
-    margin: 50px auto;
-    position: relative; }
+    height: 100%;
+    width: 100%;
+    display: block; }
   body .row {
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-basis: auto;
     position: relative;
-    width: 2400px;
+    width: 1500px;
+    align-items: center;
     margin-top: 775px;
     margin-bottom: 350px;
     z-index: 1; }
   body h4 {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    background-color: black; }
 
 .table tr, th {
   padding: 10px;
@@ -46,11 +50,11 @@ body {
   display: flex;
   box-sizing: border-box;
   margin-top: 0;
-  margin-bottom: 0;
-  position: absolute; }
+  margin-bottom: 0; }
 
 main {
   max-width: 1140px;
+  top: 0;
   box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1), -30px 0px 40px rgba(0, 0, 0, 0.1); }
 
 .navigation {
@@ -86,11 +90,14 @@ main {
       background-color: #808080; }
 
 .card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
   height: 600px;
   width: 500px;
+  max-width: 960px;
+  padding-right: 10px;
+  padding-left: 10px;
   perspective: 1000px;
-  align-items: center;
-  float: left;
   z-index: 6; }
 
 .content {
@@ -124,7 +131,8 @@ main {
   backface-visibility: hidden; }
 
 .card-body__title {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 2px; }
 
 .card-body {
   margin-top: 4rem; }
