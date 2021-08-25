@@ -15,7 +15,7 @@
 
 .content {
   z-index: 3;
-  position: static;
+  position: relative;
   float: left;
   margin-top: 35px;
   width: 100%;
@@ -61,9 +61,6 @@
   margin-top: 4rem;
 }
 
-//@media and all (max-width: 500px) {
-  //
-//}
 /*.card {
 	backface-visibility: hidden;
   display: inline-block;

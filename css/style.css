@@ -36,6 +36,26 @@ body {
 .table tr, th, td:not(.different) {
   text-align: center; }
 
+.img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-position: 50% 50%; }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%; }
+
+.fa-facebook {
+  background: #3B5998;
+  color: white; }
+
 *,
 *::after,
 *::before {
@@ -52,8 +72,7 @@ body {
   box-sizing: border-box;
   margin-top: 0;
   margin-bottom: 0;
-  overflow-x: hidden;
-  overflow-y: hidden; }
+  overflow-x: hidden; }
 
 main {
   max-width: 1140px;
@@ -106,7 +125,7 @@ main {
 
 .content {
   z-index: 3;
-  position: static;
+  position: relative;
   float: left;
   margin-top: 35px;
   width: 100%;

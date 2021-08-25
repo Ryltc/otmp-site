@@ -63,3 +63,26 @@ body {
 	text-align: center;
 }
 
+.img {
+	max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: auto;
+	object-position: 50% 50%;
+}
+
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+}
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
