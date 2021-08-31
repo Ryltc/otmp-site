@@ -1,6 +1,7 @@
 .card-wrapper {
+  margin: 0 auto;  
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: stretch;
   flex-wrap: wrap;
   height: 600px;
@@ -17,6 +18,8 @@
 }
 
 .content {
+  display: flex;
+  flex-wrap: wrap;  
   z-index: 3;
   position: relative;
   float: left;
@@ -25,11 +28,6 @@
   height: 100%;
   font-size: 15px;
   text-transform: uppercase;
-  //text-align-last: left;
-  //text-align: center;
-    //&:not(:last-child) {
-     // text-align: none;
-
   transition: transform .08s;
   transform-style: preserve-3d;
 }

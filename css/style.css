@@ -5,24 +5,23 @@
 */
 body {
   font-weight: 500;
-  width: 100%;
-  height: 100%; }
+  margin: 0; }
+  body h1 {
+    font-size: 120px; }
   body .container {
     min-height: 100%;
     height: 100%;
     width: 100%;
     margin: auto;
-    display: block; }
+    position: absolute; }
   body .row {
+    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     flex-basis: auto;
-    position: relative;
-    width: 1500px;
-    align-items: center;
-    margin-top: 775px;
-    margin-bottom: 350px;
+    position: absolute;
+    justify-content: center;
+    width: 2500px;
     z-index: 1; }
   body h4 {
     text-transform: uppercase;
@@ -56,6 +55,24 @@ body {
   background: #3B5998;
   color: white; }
 
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%; }
+
+#bg img {
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%; }
+
 *,
 *::after,
 *::before {
@@ -64,20 +81,16 @@ body {
   box-sizing: border-box; }
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  background: url(../img/keys.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden; }
 
 body {
-  min-height: 100vh;
-  display: flex;
-  box-sizing: border-box;
-  margin-top: 0;
-  margin-bottom: 0;
-  overflow-x: hidden; }
-
-main {
-  max-width: 1140px;
-  top: 0;
-  box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1), -30px 0px 40px rgba(0, 0, 0, 0.1); }
+  font-family: Arial;
+  margin: 0;
+  box-sizing: border-box; }
 
 .navigation {
   width: 100%;
@@ -112,8 +125,9 @@ main {
       background-color: #808080; }
 
 .card-wrapper {
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: stretch;
   flex-wrap: wrap;
   height: 600px;
@@ -127,6 +141,8 @@ main {
   position: relative; }
 
 .content {
+  display: flex;
+  flex-wrap: wrap;
   z-index: 3;
   position: relative;
   float: left;
@@ -270,36 +286,12 @@ main {
     }
 }*/
 .header {
-  overflow: hidden;
-  position: relative;
-  height: 100%;
-  background-image: linear-gradient(to right bottom, rgba(105, 105, 122, 0.1), rgba(89, 39, 1, 0.1)), url(../img/keys.jpg);
-  margin-top: 0;
-  width: 100vw;
-  background-size: cover;
-  background-position: top;
-  position: fixed;
-  z-index: -1; }
-  .header__text-box {
-    color: white;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-weight: 900;
-    font-size: 10rem;
-    text-transform: uppercase; }
-    .header__text-box h1 {
-      text-decoration: underline;
-      font-size: 10vw; }
-    .header__text-box p {
-      font-weight: 1rem;
-      font-size: 1vw; }
-
-@media only screen and (max-width: 320px) {
-  body {
-    font-size: 2rem; } }
+  text-align: center;
+  background-color: #000000;
+  color: white;
+  font-size: 7rem;
+  margin-bottom: 200px;
+  text-transform: uppercase; }
 
 .footer {
   display: inline-block;
