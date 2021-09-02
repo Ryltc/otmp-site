@@ -26,69 +26,63 @@ body {
   body h4 {
     text-transform: uppercase;
     background-color: black; }
-
-.table tr, th {
-  padding: 10px;
-  text-align: left;
-  margin-top: 51px; }
-
-.table tr, th, td:not(.different) {
-  text-align: center; }
-
-.img {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  object-position: 50% 50%; }
-
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%; }
-
-.fa-facebook {
-  background: #3B5998;
-  color: white; }
-
-#bg {
-  position: fixed;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%; }
-
-#bg img {
-  background-size: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  min-width: 50%;
-  min-height: 50%; }
+  body .table tr, body th {
+    padding: 10px;
+    text-align: left;
+    margin-top: 51px; }
+  body .table tr, body th, body td:not(.different) {
+    text-align: center; }
+  body .img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-position: 50% 50%; }
+  body .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%; }
+  body .fa-facebook {
+    background: #3B5998;
+    color: white; }
+  body #bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%; }
+  body #bg img {
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%; }
 
 *,
 *::after,
 *::before {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box; }
 
 html {
   font-size: 62.5%;
+  font: serif;
   background: url(../img/keys.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 100%;
   overflow: hidden; }
 
 body {
-  font-family: Arial;
+  font-family: "Times New Roman", Times, serif;
   margin: 0;
   box-sizing: border-box; }
 
@@ -139,136 +133,48 @@ body {
   perspective: 1000px;
   z-index: 6;
   position: relative; }
-
-.content {
-  display: flex;
-  flex-wrap: wrap;
-  z-index: 3;
-  position: relative;
-  float: left;
-  margin-top: 35px;
-  width: 100%;
-  height: 100%;
-  font-size: 15px;
-  text-transform: uppercase;
-  transition: transform .08s;
-  transform-style: preserve-3d; }
-
-.card-wrapper:hover .content {
-  transform: rotateY(180deg);
-  transition: 1s; }
-
-.face-front, .face-back {
-  position: absolute;
-  width: 100%;
-  height: 57%;
-  background-color: #000;
-  color: white;
-  backface-visibility: hidden; }
-
-.face-back {
-  background: #000000;
-  color: white;
-  transform: rotateY(180deg);
-  backface-visibility: hidden; }
-
-.card-body__title {
-  text-align: center;
-  margin-bottom: 2px; }
-
-.card-body {
-  margin-top: 4rem; }
-
-/*.card {
-	backface-visibility: hidden;
-  display: inline-block;
-  //overflow: hidden;
-  background-color: black;
-	display: flex;
-  //flex-basis: auto;
-	justify-content: space-between;
-  position: relative;
-  left: 40%;
-  max-width: 400px;
-  max-height: 300px;
-  margin: -150px;
-  margin-bottom: 10px;
-  float: none;
-  perspective: 1000px;
-  background-color: transparent;
-  border-color: red;
-  box-shadow: 0 1.5rem 4rem rgba(#000, .15);
-
-  &__card-img {
-  	//width: 100%;
-  	//height: auto;
-  	//object-fit: scale-down;
-    //display: block;
+  .card-wrapper .content {
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 3;
+    position: relative;
     float: left;
-    width: 100px;
-    height: 100px;
-    //object-fit: cover;
+    margin-top: 35px;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: transform .08s;
+    transform-style: preserve-3d; }
+  .card-wrapper .card-wrapper:hover .content {
+    transform: rotateY(180deg);
+    transition: 1s; }
+  .card-wrapper .face-front, .card-wrapper .face-back {
+    position: absolute;
+    width: 100%;
+    height: 57%;
+    background-color: #000;
+    color: white;
+    backface-visibility: hidden; }
+  .card-wrapper .face-back {
+    background: #000000;
+    color: white;
+    transform: rotateY(180deg);
+    backface-visibility: hidden; }
+  .card-wrapper .card-body__title {
+    text-align: center;
+    margin-bottom: 2px; }
+  .card-wrapper .card-body {
+    margin-top: 4rem; }
 
-  &__responsive-img {
-  	object-fit: cover;
-
-  }
-
-  }
-}
-
-.content {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
-  font-size: 40px;
-  transition: transform 1s;
-  transform-style: preserve-3d;
-}
-
-.card:hover .content {
-  transform: rotateY( 180deg ) ;
-  transition: transform 0.5s;
-  background-color: transparent;
-}
-
-.front,
-.back {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: black;
-  line-height: 300px;
-  color: #ffffff;
-  text-align: center;
-  font-size: 10rem;
-  border-radius: 5px;
-  backface-visibility: hidden;
-}
-
-.card-title {
-	width: 18rem;
-	text-align: center;
-	float: right;
-}
-
-.back {
-  background: #000000;
-  color: white;
-  transform: rotateY( 180deg );
-  font-size: 1.34rem;
-  line-height: 2.6;
-}
-*/
 /*.header {
 	color: black;
 	position: absolute;
-	background-image: linear-gradient(
-		to right bottom, 
-		rgba($color-primary-light, 0.1), 
-		rgba($color-primary-dark, 0.1)),
-	url(../img/keys.jpg);
+	//background-image: linear-gradient(
+	//	to right bottom, 
+	//	rgba($color-primary-light, 0.1), 
+	//	rgba($color-primary-dark, 0.1)),
+	//url(../img/keys.jpg);
    	top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -286,12 +192,29 @@ body {
     }
 }*/
 .header {
+  position: absolute;
+  width: 100%;
+  height: 500px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #000000;
   color: white;
   font-size: 7rem;
   margin-bottom: 200px;
+  z-index: -1;
   text-transform: uppercase; }
+  .header .h1 {
+    font-size: 10vw; }
+  .header .p {
+    font-size: 5vw; }
+
+@media screen and (max-width: 600px) {
+  .header {
+    float: none;
+    display: block;
+    text-align: center; } }
 
 .footer {
   display: inline-block;
