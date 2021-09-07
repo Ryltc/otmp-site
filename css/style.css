@@ -71,7 +71,8 @@ body {
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  width: 100%; }
 
 html {
   font-size: 62.5%;
@@ -118,54 +119,40 @@ body {
     .navigation a:hover {
       background-color: #808080; }
 
-.card-wrapper {
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
-  flex-wrap: wrap;
-  height: 600px;
-  width: 500px;
-  max-width: 960px;
-  object-fit: fill;
-  padding-right: 10px;
-  padding-left: 10px;
-  perspective: 1000px;
-  z-index: 6;
-  position: relative; }
-  .card-wrapper .content {
-    display: flex;
-    flex-wrap: wrap;
-    z-index: 3;
-    position: relative;
-    float: left;
-    margin-top: 35px;
-    width: 100%;
-    height: 100%;
-    font-size: 15px;
-    text-transform: uppercase;
-    transition: transform .08s;
-    transform-style: preserve-3d; }
-  .card-wrapper .card-wrapper:hover .content {
-    transform: rotateY(180deg);
-    transition: 1s; }
-  .card-wrapper .face-front, .card-wrapper .face-back {
-    position: absolute;
-    width: 100%;
-    height: 57%;
-    background-color: #000;
-    color: white;
+.cards {
+  display: grid;
+  backface-visibility: hidden; }
+  @media screen and (max-width: 600px) {
+    .cards .header {
+      float: none;
+      text-align: center; } }
+  .cards .card {
+    perspective: 40rem; }
+  .cards .card-front, .cards .card-back {
     backface-visibility: hidden; }
-  .card-wrapper .face-back {
-    background: #000000;
-    color: white;
-    transform: rotateY(180deg);
-    backface-visibility: hidden; }
-  .card-wrapper .card-body__title {
-    text-align: center;
-    margin-bottom: 2px; }
-  .card-wrapper .card-body {
-    margin-top: 4rem; }
+  .cards .cards {
+    grid-gap: .5rem;
+    background: transparent; }
+  .cards .card {
+    text-decoration: none;
+    color: inherit;
+    /*&:hover {
+    transition-delay: 0s;
+    z-index: 1;
+  }
+
+  &:active {
+    transform: scale(0.975);
+  }*/ }
+  .cards .card-body {
+    border-radius: 3rem; }
+  .cards .card-front, .cards .card-back {
+    align-items: center;
+    box-sizing: border-box;
+    padding: 1.5rem;
+    border-radius: 0.25rem; }
+  .cards .card-front {
+    font-size: 3.5rem; }
 
 /*.header {
 	color: black;
@@ -192,19 +179,16 @@ body {
     }
 }*/
 .header {
-  position: absolute;
+  position: sticky;
   width: 100%;
-  height: 500px;
   text-align: center;
-  display: flex;
   flex: 0 1 40vw;
   justify-content: center;
   align-items: center;
   background-color: #000000;
   color: white;
   font-size: 7rem;
-  margin-bottom: 200px;
-  z-index: -1;
+  z-index: 1;
   text-transform: uppercase; }
   .header h1 {
     font-size: 9vw; }
