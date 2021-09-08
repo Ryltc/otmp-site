@@ -38,7 +38,7 @@
   grid-gap: .5rem;
   background: transparent;
   //background: whitesmoke;
-  grid-template-column: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-template-column: repeat(auto-fill, minmax(225px, 1fr));
 }
 
 .card {
@@ -66,12 +66,14 @@
 }
 
 .card-front, .card-back {
+  text-align: center;
   align-items: center;
   box-sizing: border-box;
   padding: 2rem;
   border-radius: 1rem;
 
   .table { 
+    text-decoration: underline;
   }
 }
 

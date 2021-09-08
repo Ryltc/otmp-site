@@ -144,7 +144,7 @@ body {
     .cards .card:hover .cards, .cards .card:focus .cards {
       grid-gap: .5rem;
       background: transparent;
-      grid-template-column: repeat(auto-fit, minmax(20rem, 1fr)); }
+      grid-template-column: repeat(auto-fill, minmax(225px, 1fr)); }
     .cards .card:hover .card, .cards .card:focus .card {
       text-decoration: none;
       color: transparent;
@@ -159,10 +159,13 @@ body {
       align-content: center;
       text-align: center; }
     .cards .card:hover .card-front, .cards .card:hover .card-back, .cards .card:focus .card-front, .cards .card:focus .card-back {
+      text-align: center;
       align-items: center;
       box-sizing: border-box;
       padding: 2rem;
       border-radius: 1rem; }
+      .cards .card:hover .card-front .table, .cards .card:hover .card-back .table, .cards .card:focus .card-front .table, .cards .card:focus .card-back .table {
+        text-decoration: underline; }
     .cards .card:hover .card-front, .cards .card:focus .card-front {
       font-size: 3.5rem;
       width: 60%; }
