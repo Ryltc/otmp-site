@@ -25,12 +25,14 @@ h1 {
 .row {
 	margin: 0 auto;
 	display: flex;
+	overflow-x: scroll; 
 	flex-wrap: wrap;
 	flex-basis: auto;
 	position: absolute;
 	justify-content: center;
 	width: 2500px;
 	z-index: 1;
+	overflow-y: scroll;
 }
 	h4 {
 		text-transform: uppercase;
@@ -42,6 +44,7 @@ h1 {
 	padding: 10px;
 	text-align: left;
 	margin-top: 51px;
+	text-decoration: underline;
 }
 
 .table tr, th, td:not(.different) {
@@ -49,8 +52,8 @@ h1 {
 }
 
 .img {
-	max-width: 100%;
-	max-height: 100%;
+	max-width: 80%;
+	max-height: 80%;
 	width: auto;
 	height: auto;
 	object-position: 50% 50%;
