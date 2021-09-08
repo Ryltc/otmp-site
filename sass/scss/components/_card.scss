@@ -1,6 +1,7 @@
 .cards {
   display: grid;
   backface-visibility: hidden;
+  background-color: transparent;
 
   @media screen and (max-width: 600px) {
   .header {
@@ -59,6 +60,8 @@
 
 .card-body {
   border-radius: 3rem;
+  align-content: center;
+  text-align: center;
 }
 
 .card-front, .card-back {

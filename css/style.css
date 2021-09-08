@@ -85,7 +85,8 @@ html {
 body {
   font-family: "Times New Roman", Times, serif;
   margin: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  background-color: transparent; }
 
 .navigation {
   width: 100%;
@@ -121,7 +122,8 @@ body {
 
 .cards {
   display: grid;
-  backface-visibility: hidden; }
+  backface-visibility: hidden;
+  background-color: transparent; }
   @media screen and (max-width: 600px) {
     .cards .header {
       float: none;
@@ -145,7 +147,9 @@ body {
     transform: scale(0.975);
   }*/ }
   .cards .card-body {
-    border-radius: 3rem; }
+    border-radius: 3rem;
+    align-content: center;
+    text-align: center; }
   .cards .card-front, .cards .card-back {
     align-items: center;
     box-sizing: border-box;
