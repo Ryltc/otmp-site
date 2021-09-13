@@ -3,6 +3,8 @@
   backface-visibility: hidden;
   background-color: transparent;
   overflow-y: scroll;
+  margin-top: -20px;
+
 
   @media screen and (max-width: 600px) {
   .header {
@@ -14,7 +16,7 @@
 
 .card {
   perspective: 40rem;
-  margin-top: -20px;
+
 }
 
 .card-body {
@@ -49,8 +51,8 @@
   text-decoration: none;
   color: transparent;
   z-index: 0;
-  margin-top: -20px;
-  
+
+
 
   &:hover {
     transition-delay: 0s;

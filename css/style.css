@@ -127,14 +127,14 @@ body {
   display: grid;
   backface-visibility: hidden;
   background-color: transparent;
-  overflow-y: scroll; }
+  overflow-y: scroll;
+  margin-top: -20px; }
   @media screen and (max-width: 600px) {
     .cards .header {
       float: none;
       text-align: center; } }
   .cards .card {
-    perspective: 40rem;
-    margin-top: -20px; }
+    perspective: 40rem; }
   .cards .card-body {
     transform-style: preserve-3d;
     transition: var(--time_) transform; }
@@ -149,8 +149,7 @@ body {
     .cards .card:hover .card, .cards .card:focus .card {
       text-decoration: none;
       color: transparent;
-      z-index: 0;
-      margin-top: -20px; }
+      z-index: 0; }
       .cards .card:hover .card:hover, .cards .card:focus .card:hover {
         transition-delay: 0s;
         z-index: 1; }
