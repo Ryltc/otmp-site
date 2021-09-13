@@ -133,7 +133,8 @@ body {
       float: none;
       text-align: center; } }
   .cards .card {
-    perspective: 40rem; }
+    perspective: 40rem;
+    margin-top: -20px; }
   .cards .card-body {
     transform-style: preserve-3d;
     transition: var(--time_) transform; }
@@ -148,7 +149,8 @@ body {
     .cards .card:hover .card, .cards .card:focus .card {
       text-decoration: none;
       color: transparent;
-      z-index: 0; }
+      z-index: 0;
+      margin-top: -20px; }
       .cards .card:hover .card:hover, .cards .card:focus .card:hover {
         transition-delay: 0s;
         z-index: 1; }

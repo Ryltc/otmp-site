@@ -14,6 +14,7 @@
 
 .card {
   perspective: 40rem;
+  margin-top: -20px;
 }
 
 .card-body {
@@ -48,6 +49,8 @@
   text-decoration: none;
   color: transparent;
   z-index: 0;
+  margin-top: -20px;
+  
 
   &:hover {
     transition-delay: 0s;
