@@ -6,8 +6,10 @@
 body {
   font-weight: 500;
   margin: 0; }
+  body .page-container html {
+    scroll-behavior: smooth; }
   body h1 {
-    font-size: 120px; }
+    font-size: 30px; }
   body .container {
     min-height: 100%;
     height: 100%;
@@ -68,6 +70,8 @@ body {
     margin: auto;
     min-width: 50%;
     min-height: 50%; }
+  body p {
+    font-size: 15px; }
 
 *,
 *::after,
