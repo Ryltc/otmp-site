@@ -125,36 +125,36 @@ body {
 
 .cards {
   display: grid;
-  backface-visibility: hidden;
   background-color: transparent;
   overflow-y: scroll;
-  margin-top: -20px; }
+  overflow-x: scroll;
+  margin-top: -20px;
+  position: relative; }
   @media screen and (max-width: 600px) {
     .cards .header {
       float: none;
+      display: block;
       text-align: center; } }
   .cards .card {
-    perspective: 40rem; }
+    perspective: 1000px; }
   .cards .card-body {
-    transform-style: preserve-3d;
-    transition: var(--time_) transform; }
+    display: flex;
+    flex-wrap: wrap; }
   .cards .card:hover, .cards .card:focus {
-    transform: rotateX(-180deg); }
+    transform: rotateY(-180deg); }
     .cards .card:hover .card-front, .cards .card:hover .card-back, .cards .card:focus .card-front, .cards .card:focus .card-back {
       backface-visibility: hidden; }
-    .cards .card:hover .cards, .cards .card:focus .cards {
+    .cards .card:hover .card-front, .cards .card:focus .card-front {
+      transform: rotateY(-180deg) translate(-100% 0); }
+    .cards .card:hover .card, .cards .card:focus .card {
       grid-gap: .5rem;
       background: transparent;
       grid-template-column: repeat(auto-fill, minmax(225px, 1fr)); }
     .cards .card:hover .card, .cards .card:focus .card {
+      display: flex;
       text-decoration: none;
       color: transparent;
       z-index: 0; }
-      .cards .card:hover .card:hover, .cards .card:focus .card:hover {
-        transition-delay: 0s;
-        z-index: 1; }
-      .cards .card:hover .card:active, .cards .card:focus .card:active {
-        transform: scale(0.975); }
     .cards .card:hover .card-body, .cards .card:focus .card-body {
       border-radius: 3rem;
       align-content: center;
@@ -164,11 +164,12 @@ body {
       align-items: center;
       box-sizing: border-box;
       padding: 2rem;
-      border-radius: 1rem; }
+      border-radius: 1rem;
+      position: relative; }
       .cards .card:hover .card-front .table, .cards .card:hover .card-back .table, .cards .card:focus .card-front .table, .cards .card:focus .card-back .table {
         text-decoration: underline; }
     .cards .card:hover .card-front, .cards .card:focus .card-front {
-      font-size: 3.5rem;
+      font-size: 6rem;
       width: 60%; }
 
 /*.header {
