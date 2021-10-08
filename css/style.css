@@ -6,8 +6,6 @@
 body {
   font-weight: 500;
   margin: 0; }
-  body .page-container html {
-    scroll-behavior: smooth; }
   body h1 {
     font-size: 30px; }
   body .container {
@@ -84,10 +82,8 @@ body {
 html {
   font-size: 62.5%;
   font: serif;
-  background: url(../img/keys.jpg) no-repeat center center fixed;
-  background-size: cover;
   height: 100%;
-  overflow: hidden; }
+  overflow-y: scroll; }
 
 body {
   font-family: "Times New Roman", Times, serif;
@@ -127,55 +123,110 @@ body {
     .navigation a:hover {
       background-color: #808080; }
 
-.cards {
+/*.cards {
   display: grid;
+  //backface-visibility: hidden;
   background-color: transparent;
   overflow-y: scroll;
   overflow-x: scroll;
   margin-top: -20px;
-  position: relative; }
-  @media screen and (max-width: 600px) {
-    .cards .header {
-      float: none;
-      display: block;
-      text-align: center; } }
-  .cards .card {
-    perspective: 1000px; }
-  .cards .card-body {
-    display: flex;
-    flex-wrap: wrap; }
-  .cards .card:hover, .cards .card:focus {
-    transform: rotateY(-180deg); }
-    .cards .card:hover .card-front, .cards .card:hover .card-back, .cards .card:focus .card-front, .cards .card:focus .card-back {
-      backface-visibility: hidden; }
-    .cards .card:hover .card-front, .cards .card:focus .card-front {
-      transform: rotateY(-180deg) translate(-100% 0); }
-    .cards .card:hover .card, .cards .card:focus .card {
-      grid-gap: .5rem;
-      background: transparent;
-      grid-template-column: repeat(auto-fill, minmax(225px, 1fr)); }
-    .cards .card:hover .card, .cards .card:focus .card {
-      display: flex;
-      text-decoration: none;
-      color: transparent;
-      z-index: 0; }
-    .cards .card:hover .card-body, .cards .card:focus .card-body {
-      border-radius: 3rem;
-      align-content: center;
-      text-align: center; }
-    .cards .card:hover .card-front, .cards .card:hover .card-back, .cards .card:focus .card-front, .cards .card:focus .card-back {
-      text-align: center;
-      align-items: center;
-      box-sizing: border-box;
-      padding: 2rem;
-      border-radius: 1rem;
-      position: relative; }
-      .cards .card:hover .card-front .table, .cards .card:hover .card-back .table, .cards .card:focus .card-front .table, .cards .card:focus .card-back .table {
-        text-decoration: underline; }
-    .cards .card:hover .card-front, .cards .card:focus .card-front {
-      font-size: 6rem;
-      width: 60%; }
+  position: relative;
 
+
+  @media screen and (max-width: 600px) {
+  .header {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+}
+
+.card {
+  perspective: 1000px;
+  //backface-visibility: hidden;
+
+}
+
+.card-body {
+  display: flex;
+  flex-wrap: wrap;
+  //transform-style: preserve-3d;
+  //transition: var(--time_) transform;
+}
+
+//.card:hover, .card:focus {
+//  transform: rotateY(-180deg);
+//}
+
+.card-front, .card-back 
+  backface-visibility: hidden;
+}
+
+.card-front {
+  transform: rotateY(-180deg) translate(-100% 0);
+}
+
+.card {
+  grid-gap: .5rem;
+  background: transparent;
+  //background: whitesmoke;
+  grid-template-column: repeat(auto-fill, minmax(225px, 1fr));
+}
+
+.card {
+  display: flex;
+  //transition: z-index, transform calc(var(--time) / 4);
+  //transition-delay: var(--time), 0s;
+  text-decoration: none;
+  color: transparent;
+  z-index: 0;
+
+
+
+  //&:hover {
+  //  transition-delay: 0s;
+  //  z-index: 1;
+  //}
+
+  //&:active {
+  //  transform: scale(0.975);
+  //}
+}
+
+.card-body {
+  border-radius: 3rem;
+  align-content: center;
+  text-align: center;
+}
+
+.card-front, .card-back {
+  text-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 2rem;
+  border-radius: 1rem;
+  position: relative;
+
+  .table { 
+    text-decoration: underline;
+  }
+}
+
+.card-front {
+  font-size: 6rem;
+  width: 60%;
+
+  //&--1 {
+  //  background-image: url(../img/controlroom.jpg);
+  //}
+  //&--2 {
+  //  background-image: url(../img/me2.jpg);
+  //}
+  //&--3 {
+  //  background-image: url(../img/mix.jpg);
+  //}
+}
+*/
 /*.header {
 	color: black;
 	position: absolute;
@@ -263,8 +314,7 @@ body {
 
 .content {
   padding: 20px;
-  line-spacing: 135%;
   text-align: center;
   align-items: center;
   justify-content: center;
-  min-height: calc(100vh - 70px); }
+  overflow-y: scroll; }

@@ -1,4 +1,4 @@
-.cards {
+/*.cards {
   display: grid;
   //backface-visibility: hidden;
   background-color: transparent;
@@ -29,9 +29,9 @@
   //transition: var(--time_) transform;
 }
 
-.card:hover, .card:focus {
-  transform: rotateY(-180deg);
-
+//.card:hover, .card:focus {
+//  transform: rotateY(-180deg);
+//}
 
 .card-front, .card-back 
   backface-visibility: hidden;
@@ -101,6 +101,4 @@
   //  background-image: url(../img/mix.jpg);
   //}
 }
-
-}
-}
+*/
