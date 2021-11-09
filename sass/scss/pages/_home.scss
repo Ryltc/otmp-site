@@ -38,15 +38,6 @@
   	justify-content: center;
   	overflow-y: scroll;
 	margin-bottom: 20px;
-	z-index: auto;
+	z-index: -1;
 }
 
-#contentONE {
-	padding:20px;
-  	text-align: center;
-  	align-items: center;
-  	justify-content: center;
-  	overflow-y: scroll;
-	margin-bottom: 20rem;
-	z-index: auto;
-}
