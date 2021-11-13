@@ -317,4 +317,6 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
-  overflow-y: scroll; }
+  overflow-y: scroll;
+  margin-bottom: 20px;
+  z-index: auto; }
