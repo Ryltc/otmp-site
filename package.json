@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Ryltc/otmp-site#readme",
   "dependencies": {
     "bootstrap": "^5.0.2",
+    "http-server": "^14.1.0",
     "node": "^17.7.2",
     "node-sass": "^7.0.1"
   }
