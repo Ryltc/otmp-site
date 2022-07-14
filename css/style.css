@@ -260,7 +260,8 @@ body {
 
 #bodIs {
   padding: 10px;
-  padding-bottom: 60px; }
+  padding-bottom: 60px;
+  margin: 75% auto; }
 
 #container {
   min-height: 100%;
