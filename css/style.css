@@ -172,9 +172,9 @@ body {
 .header-image {
   padding: 25px;
   margin: 0 auto;
-  width: 75%;
-  height: 25%;
-  text-align: center; }
+  text-align: center;
+  top: 60%;
+  left: 50%; }
 
 .footer {
   position: sticky;
