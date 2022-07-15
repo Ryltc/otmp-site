@@ -166,15 +166,14 @@ body {
   text-align: center;
   background-color: #211d21;
   color: #211d21;
-  z-index: 1;
-  height: 300px; }
+  z-index: 1; }
 
 .header-image {
   padding: 25px;
   margin: 0 auto;
-  text-align: center;
-  top: 60%;
-  left: 50%; }
+  width: 75%;
+  height: 25%;
+  text-align: center; }
 
 .footer {
   position: sticky;
