@@ -158,9 +158,9 @@ body {
 .header {
   position: sticky;
   width: 100%;
-  flex: 0 1 40vw;
-  justify-content: center;
-  align-items: center;
+  /*flex: 0 1 40vw;
+	justify-content: center;
+	align-items: center;*/
   background-color: #211d21;
   color: #211d21;
   font-size: 7rem;
@@ -170,8 +170,8 @@ body {
   padding: 25px;
   width: 50%;
   height: 25%;
-  /*align-items: center;
-	justify-content: center;*/ }
+  align-items: center;
+  justify-content: center; }
 
 .footer {
   position: sticky;
