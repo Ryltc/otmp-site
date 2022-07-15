@@ -155,7 +155,7 @@ body {
   color: white;
   font-size: medium;
   transform: rotateX(180deg);
-  padding: 2em 4em; }
+  padding: 10em 4em; }
 
 .header {
   position: sticky;
