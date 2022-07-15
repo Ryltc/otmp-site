@@ -167,10 +167,6 @@ body {
   font-size: 7rem;
   z-index: 1;
   text-transform: uppercase; }
-  .header h1 {
-    font-size: 9vw; }
-  .header p {
-    font-size: 4vw; }
 
 #header-background {
   width: 100%;
