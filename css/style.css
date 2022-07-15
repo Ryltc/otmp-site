@@ -154,9 +154,10 @@ body {
 .flip-card-back {
   background-color: black;
   color: white;
-  font-size: medium;
+  font-size: 40px;
   transform: rotateX(180deg);
-  padding: 10em 4em; }
+  padding-top: 1px;
+  margin-top: 20px; }
 
 .header {
   position: sticky;
