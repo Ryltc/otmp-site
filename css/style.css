@@ -163,6 +163,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #211d21;
+  color: #211d21;
   font-size: 7rem;
   z-index: 1;
   text-transform: uppercase; }
