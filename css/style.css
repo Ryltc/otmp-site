@@ -174,7 +174,8 @@ body {
   margin: 0 auto;
   width: 75%;
   height: 25%;
-  text-align: center; }
+  text-align: center;
+  height: 300px; }
 
 .footer {
   position: sticky;
