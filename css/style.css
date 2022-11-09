@@ -20,7 +20,12 @@ h4 {
   background-color: black; }
 
 .h1, .h3 {
-  text-align: center; }
+  text-align: center;
+  position: relative; }
+
+.p {
+  text-align: center;
+  position: relative; }
 
 .table tr, th {
   padding: 10px;
@@ -55,9 +60,6 @@ h4 {
   margin: auto;
   min-width: 50%;
   min-height: 50%; }
-
-p {
-  font-size: 15px; }
 
 *,
 *::after,
@@ -146,7 +148,7 @@ body {
   background-color: black;
   color: white;
   text-align: center;
-  font-size: 40px;
+  font-size: 15px;
   transform: rotateX(180deg);
   padding-top: 75px;
   margin-top: auto; }

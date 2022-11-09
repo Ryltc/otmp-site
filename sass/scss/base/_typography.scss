@@ -17,7 +17,12 @@
 
 .h1, .h3 {
 	text-align: center;
-	
+	position: relative;
+}
+
+.p {
+	text-align: center;
+	position: relative;
 }
 
 .table tr, th {
@@ -59,6 +64,3 @@
 	min-height: 50%;
 }
 
-p {
-	font-size: 15px;
-}
