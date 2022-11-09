@@ -25,7 +25,9 @@ h4 {
 
 .p {
   text-align: center;
-  position: relative; }
+  position: relative;
+  margin-left: 300px;
+  margin-right: 300px; }
 
 .table tr, th {
   padding: 10px;
